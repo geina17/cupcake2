@@ -1,0 +1,30 @@
+{
+  "name": "cupcakes",
+  "version": "1.0.0",
+  "description": "customers want cupcakes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geina17/cupcakes.git"
+  },
+  "keywords": [
+    "full",
+    "stack",
+    "app"
+  ],
+  "author": "gna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geina17/cupcakes/issues"
+  },
+  "homepage": "https://github.com/geina17/cupcakes#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0"
+  }
+}
