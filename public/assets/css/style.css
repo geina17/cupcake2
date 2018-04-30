@@ -1,0 +1,16 @@
+body{
+    /* background-color: #c5f989; */
+    background-image: url(watercolor.png)
+}
+
+img{
+    widows: 15px; 
+}
+
+.frosting{
+    color:#2c8756;
+}
+.motto{
+    color: rgb(149, 0, 255);
+    font-size: 15px;
+}
