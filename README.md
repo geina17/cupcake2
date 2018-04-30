@@ -6,4 +6,4 @@ Each cupcake in the 'Edibled' area has a order button. When the user clicks it, 
 
 All cupcakes are stored in the database, whether eat'in or not.
 
-![Alt text](public/assets/img/untitled.png?raw=true "untitled")
+![Alt text](/public/assets/img/Untitled.png "untitled")
