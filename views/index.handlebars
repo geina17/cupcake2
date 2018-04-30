@@ -1,0 +1,40 @@
+<div class="row">
+    <center>
+        {{!-- left side --}}
+        <div class="col-md-6">
+            <h4 class="frosting">Edibled</h4>
+            <div id="toEat">
+                {{!-- insert ready cakes --}}
+                {{#each cake}}
+                    {{#unless nom}}
+                        <form action="cake/eat/{{id}}"method ='Post'>
+                            <div class="input-group">
+                                <li class="form-control">{{id}}.{{cake_name}}</li>
+                                <span class="input-group-btn">
+                                    <button class="btn btn-success nom-btn" type="submit">Om NOm NoM!</button>
+                                </span>
+                            </div>
+                        </form>
+                    {{/unless}}
+                {{/each}}
+            </div>
+        </div>
+        {{!-- right side --}}
+        <div class="col-md-6">
+            <h4 class="frosting">Munched</h4>
+            <div id="eatin">
+                {{!-- insert eatn cakes here --}}
+                {{#each cake}}
+                    {{#if this.eatin}}
+                        <div class="input-group">
+                            <li class="form-control">{{this.id}}.{{this.cake_name}}</li>
+                            <span class="input-group-btn">
+                                <button class="btn btn-info whine-button" type="button">Gone!</button>
+                            </span>
+                        </div>
+                    {{/if}}
+                {{/each}}
+            </div>
+        </div>
+    </center>
+</div>
